@@ -38,8 +38,14 @@ module.exports = function(grunt) {
         expand: true,
         cwd: './node_modules/semantic-ui-css/themes',
         src: ["*.*","**/*.*"],
-        dest: './assets/vendor/semantic-ui/themes'}],
-    },
+        dest: './assets/vendor/semantic-ui/themes'
+      },
+      {
+        expand: true,
+        cwd: './node_modules/semantic-ui-css/',
+        src: ["semantic.js","semantic.css"],
+        dest: './assets/vendor/semantic-ui/'}
+      ]},
     build: {
       files: [{
         expand: true,
