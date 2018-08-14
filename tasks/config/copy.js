@@ -31,7 +31,7 @@ module.exports = function(grunt) {
         expand: true,
         cwd: './node_modules/jsrender/',
         src: ['jsrender.js'],
-        dest: './assests/vendor/jsrender'
+        dest: './assets/vendor/jsrender'
       },
       // Copy semantic-ui icon fonts 
       {
