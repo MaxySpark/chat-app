@@ -27,6 +27,13 @@ module.exports.routes = {
   '/': {
     view: 'pages/homepage'
   },
+  '/profile': {
+    controller: 'UserController',
+    action: 'render'
+  },
+  '/chat': {
+    view: 'chatroom'
+  }
 
   /***************************************************************************
   *                                                                          *
